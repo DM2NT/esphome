@@ -159,7 +159,7 @@ void AS3935Component::write_div_ratio(uint8_t div_ratio) {
     case 16:
       this->write_register(INT_MASK_ANT, ((1 << 7) | (1 << 6)), 0, 6);
       break;
-    case 22:
+    case 32:
       this->write_register(INT_MASK_ANT, ((1 << 7) | (1 << 6)), 1, 6);
       break;
     case 64:
